@@ -1,0 +1,38 @@
+
+<!-- 
+  作者：Yunhai
+  V6 这个demo展示了一个最简单的应用：
+
+  目前存在的bug：
+  1. 【Open】点击module，在点击reading之后，没有变化。
+  本demo想要增加的功能：  
+  2. 【已解决】无法隐藏module按钮，module按钮应该在鼠标划过reading标题的时候出现。
+  - 问题原因：使用css语法.classname ~ .classname (或者.classname + .classname)的时候，前后两个class所在的html元素必须相邻。中间不能有其他元素。
+  - 解决方法：将多余的一层div删去，使得 reading 和 module 所在的元素相邻。
+  3. 【已解决】鼠标滑动到reading的时候，module元素出现。当想要滑动到module的时候，module不能保持显示状态。
+   - 问题原因：当鼠标滑动到reading时，module显示，当下滑到module的时候，因为离开了reading按钮，module消失。
+   - 解决方法：当鼠标滑动到module的时候，让module css display状态改为显示。
+
+  这个版本想要实现的功能：
+  1. 在每一道题目后面，增加一个按钮，点击可以出现答案及解释。
+
+  制作时间：开始时间2020-05-05
+-->
+
+<app-header>
+</app-header>
+
+<mat-drawer-container class="sidebar-container">
+  <mat-drawer class="drawer" mode="side" opened>
+
+    <app-exercise-preview (readingFilter)="onreadingFilter($event)" (moduleFilter)="onmodulefilter($event)">
+    </app-exercise-preview>   
+
+  </mat-drawer>
+  
+  <mat-drawer-content>
+
+    <app-exercise-list [reading] = "reading" [reading_module]= "filter"></app-exercise-list>
+
+  </mat-drawer-content>
+</mat-drawer-container>

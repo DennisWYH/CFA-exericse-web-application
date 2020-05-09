@@ -1,0 +1,28 @@
+
+
+<div class="content">
+  <div *ngFor="let exercise of exercises">
+      <span class="year"><h2>{{ exercise.publish_year}}</h2></span>
+      <span class="reading"> <h2>Reading</h2></span> 
+      <span class="reading"> <h2>{{ exercise.reading}}</h2></span>
+      <span class="module"><h2>Module</h2></span>
+      <span class="module"><h2>{{ exercise.module}}</h2></span>
+      <p class="question">{{ exercise.exercise_question}}</p>
+
+      <span class="option1">
+      <input class="option1-content" type='radio' name={{exercise.exercise_question}}>
+      <p class="option1-content">{{ exercise.exercise_option1}}</p>
+      </span>
+
+      <span class="option2">
+      <input class="option2-content" type='radio' name={{exercise.exercise_question}}>
+      <p class="option2-content">{{ exercise.exercise_option2}}</p>
+      </span>
+
+      <span class="option3">
+      <input class="option3-content" type='radio' name={{exercise.exercise_question}}>
+      <p class="option2-content">{{ exercise.exercise_option3}}</p>
+      </span>
+      <br>
+  </div>
+</div>

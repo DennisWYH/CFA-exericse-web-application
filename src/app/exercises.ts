@@ -1,0 +1,456 @@
+export const exercises = [
+  {
+    publish_year: '2019',
+    reading: 6,
+    module:3,
+    exercise_question: 'Ananalyst estimates that XYZ’ searnings will grow from $3.00 a share to $4.50 per share over the next eight years. The rate of growth in XYZ’s earnings is closest to:',
+    exercise_option1:'4.9%.',
+    exercise_option2:'5.2%.',
+    exercise_option3:'6.7%.',
+    answer:'5.2%.'
+  },
+  {
+    publish_year: '2019',
+    reading: 6,
+    module:3,
+    exercise_question: 'If $5,000 is invested in a fund offering a rate of return of 12% per year, approximately how many years will it take for the investment to reach $10,000?',
+    exercise_option1:'4 years.',
+    exercise_option2:'5 years.',
+    exercise_option3:'6 years.',
+    answer:'6 years.'
+  },
+  {
+    publish_year: '2019',
+    reading: 6,
+    module:3,
+    exercise_question: 'An investment is expected to produce the cashflows of $500, $200, and $800 at the end of the next three years. If the required rate of return is 12%, the present value of this investment is closest to:',
+    exercise_option1:'$835.',
+    exercise_option2:'$1,175.',
+    exercise_option3:'$1,235.',
+    answer:'$1,175.'
+  },
+  {
+    publish_year: '2019',
+    reading: 11,
+    module:1,
+    exercise_question: 'A simple random sample is a sample drawnin such a way that each member of the population has:',
+    exercise_option1:'some chance of being selected in the sample.',
+    exercise_option2:'an equal chance of being included in the sample.',
+    exercise_option3:'a 1% chance of being included in the sample.',
+    answer:'an equal chance of being included in the sample.'
+  },
+  {
+    publish_year: '2019',
+    reading: 11,
+    module:1,
+    exercise_question: 'The sampling distribution of a statistic is the probability distribution made up of all possible:',
+    exercise_option1:'observations from the underlying population.',
+    exercise_option2:'sample statistics computed from samples of varying sizes drawn from the same population.',
+    exercise_option3:'sample statistics computed from samples of the same size drawn from the same population.',
+    answer:'sample statistics computed from samples of the same size drawn from the same population.'
+  },
+  {
+    publish_year: '2019',
+    reading:11,
+    module:1,
+    exercise_question: 'Sampling error is defined as:',
+    exercise_option1:'an error that occurs when a sample of less than 30 elements is drawn.',
+    exercise_option2:'an error that occurs during collection, recording, and tabulation of data.',
+    exercise_option3:'the difference between the value of a sample statistic and the value of the corresponding population parameter.',
+    answer:'the difference between the value of a sample statistic and the value of the corresponding population parameter.'
+  },
+  {
+    publish_year: '2019',
+    reading:11,
+    module:1,
+    exercise_question: 'The mean age of all CFA candidates is 28 years. The mean age of a random sample of 100 candidates is found to be 26.5 years. The difference of 1.5 years is called:',
+    exercise_option1:'the random error.',
+    exercise_option2:'the sampling error.',
+    exercise_option3:'the population error.',
+    answer:'the sampling error.'
+  },
+  {
+    publish_year: '2019',
+    reading:11,
+    module:1,
+    exercise_question: 'The sample of debt/equity ratios of 25 publicly traded U.S. banks as of fiscal year- end 2003 is an example of:',
+    exercise_option1:'a point estimate.',
+    exercise_option2:'cross-sectional data.',
+    exercise_option3:'a stratified random sample.',
+    answer:'cross-sectional data.'
+  },
+  {
+    publish_year: '2019',
+    reading:11,
+    module:1,
+    exercise_question: 'To apply the centra llimit theorem to the sampling distribution of the sample mean, the sample is usually considered to be large if n is greater than:',
+    exercise_option1:'20.',
+    exercise_option2:'25.',
+    exercise_option3:'30.',
+    answer:'30.'
+  },
+  {
+    publish_year: '2019',
+    reading:11,
+    module:1,
+    exercise_question: 'If n is large and the population standard deviationis unknown,the standard error of the sampling distribution of the sample mean is equal to:',
+    exercise_option1:'the sample standard deviation divided by the sample size.',
+    exercise_option2:'the population standard deviation multiplied by the sample size.',
+    exercise_option3:'the sample standard deviation divided by the square root of the sample size.',
+    answer:'the sample standard deviation divided by the square root of the sample size.'
+  },
+  {
+    publish_year: '2019',
+    reading:11,
+    module:1,
+    exercise_question: 'The standard error of the sampling distribution of the sample mean for a sample size of n drawn from a population with a mean of μ and a standard deviation of σ is:',
+    exercise_option1:'sample standard deviation divided by the sample size.',
+    exercise_option2:'sample standard deviation divided by the square root of the sample size.',
+    exercise_option3:'population standard deviation divided by the square root of the sample size.',
+    answer:'population standard deviation divided by the square root of the sample size.'
+  },
+  {
+    publish_year: '2019',
+    reading:11,
+    module:1,
+    exercise_question: 'Assume that a population has a mean of 14 with a standard deviation of 2. If a random sample of 49 observations is drawn from this population, the standard error of the sample mean is closest to:',
+    exercise_option1:'0.04.',
+    exercise_option2:'0.29.',
+    exercise_option3:'2.00.',
+    answer:'0.29.'
+  },
+  {
+    publish_year: '2019',
+    reading:11,
+    module:1,
+    exercise_question: 'The population’s mean is 30 and the mean of a sample of size 100 is 28.5. The variance of the sample is 25. The standard error of the sample mean is closest to:',
+    exercise_option1:'0.05.',
+    exercise_option2:'0.25.',
+    exercise_option3:'0.50.',
+    answer:'0.50.'
+  },
+  {
+    publish_year: '2019',
+    reading:11,
+    module:1,
+    exercise_question: 'Which of the following is least likely a desirable property of anestimator?',
+    exercise_option1:'Reliability.',
+    exercise_option2:'Efficiency.',
+    exercise_option3:'Consistency.',
+    answer:'Reliability.'
+  },
+  {
+    publish_year: '2019',
+    reading:12,
+    module:1,
+    exercise_question: 'To test whether the mean of a population is greater than 20, the appropriate null hypothesis is that the population mean is:',
+    exercise_option1:'less than 20.',
+    exercise_option2:'greater than 20.',
+    exercise_option3:'less than or equal to 20.',
+    answer:'less than or equal to 20.'
+  },
+    {
+    publish_year: '2019',
+    reading:12,
+    module:1,
+    exercise_question: 'Which of the following statements about hypothesis testing is most accurate?',
+    exercise_option1:'A Type II error is rejecting the null when it is actually true.',
+    exercise_option2:'The significance level equals one minus the probability of a Type I error.',
+    exercise_option3:'A two-tailed test with a significance level of 5% has z-critical values of ± 1.96.',
+    answer:'A two-tailed test with a significance level of 5% has z-critical values of ± 1.96.'
+  },
+    {
+    publish_year: '2019',
+    reading:12,
+    module:1,
+    exercise_question: 'For a hypothesis test with a probability of a Type II error of 60% and a probability of a Type I error of 5%, which of the following statements is most accurate?',
+    exercise_option1:'The power of the test is 40%,and there is a 5% probability that the test statistic will exceed the critical value(s).',
+    exercise_option2:'There is a 95% probability that the test statistic will be between the critical values if this is a two-tailed test.',
+    exercise_option3:'There is a 5% probability that the null hypothesis will be rejected when actually true, and the probability of rejecting the null when it is false is 40%.',
+    answer:'There is a 5% probability that the null hypothesis will be rejected when actually true, and the probability of rejecting the null when it is false is 40%.'
+  },
+    {
+    publish_year: '2019',
+    reading:12,
+    module:1,
+    exercise_question: 'If the significance level of a test is 0.05 and the probability of a Type II error is 0.15, what is the power of the test?',
+    exercise_option1:'0.850.',
+    exercise_option2:'0.950.',
+    exercise_option3:'0.975.',
+    answer:'0.850.'
+  },
+  {
+    publish_year: '2019',
+    reading:12,
+    module:2,
+    exercise_question: 'Using historical data,a hedge fund manager designs a test of whether abnormal returns are positive on average. The test results in a p-value of 3%. The manager can most appropriately:',
+    exercise_option1:'reject the hypothesis that abnormal returns are less than or equal to zero, using a 1% significance level.',
+    exercise_option2:'reject the hypothesis that abnormal returns are less than or equal to zero, using a 5% significance level.',
+    exercise_option3:'conclude that the strategy produces positive abnormal returns on average, using a 5% significance level.',
+    answer:'reject the hypothesis that abnormal returns are less than or equal to zero, using a 5% significance level.'
+  },
+  {
+    publish_year: '2019',
+    reading:12,
+    module:2,
+    exercise_question: 'Ananalyst wants to test a hypothesis concerning the population mean of monthly returns for a composite that has existed for 24 months. The analyst may appropriately use:',
+    exercise_option1:'a t-test but not a z-test if returns for the composite are normally distributed.',
+    exercise_option2:'either a t-test or a z-test if returns for the composite are normally distributed.',
+    exercise_option3:'a t-test but not a z-test, regardless of the distribution of returns for the composite.',
+    answer:'a t-test but not a z-test if returns for the composite are normally distributed.'
+  },
+  {
+    publish_year: '2019',
+    reading:12,
+    module:2,
+    exercise_question: 'From a sample of 14 observations, ananalyst calculates a t-statistic to test a hypothesis that the population mean is equal to zero. If the analyst chooses a 5% significance level, the appropriate critical value is:',
+    exercise_option1:'less than 1.80.',
+    exercise_option2:'greater than 2.15.',
+    exercise_option3:'between 1.80 and 2.15.',
+    answer:'greater than 2.15.'
+  },
+  {
+    publish_year: '2019',
+    reading:13,
+    module:1,
+    exercise_question: 'An assumption of technical analysis is that market prices:',
+    exercise_option1:'exhibit identifiable trends and patterns that persist and repeat.',
+    exercise_option2:'are the only information necessary to analyze a freely trading market.',
+    exercise_option3:'reflect supply and demand conditions because actual transactions reflect rational decisions by buyers and sellers.',
+    answer:'exhibit identifiable trends and patterns that persist and repeat.',
+    answer_explanation:'Technical analysis assumes persistent trends and repeating patterns in market prices can be used to forecast price behavior. Technical analysts believe prices reflect supply and demand, but that buying and selling can be motivated by both rational and irrational causes. Volume, along with price, is important information to a technical analyst.'
+  },
+  {
+    publish_year: '2019',
+    reading:13,
+    module:1,
+    exercise_question: 'From which of the following chart scan ananalys tread the opening price for a trading period?',
+    exercise_option1:'Line chart.',
+    exercise_option2:'Candle stick chart.',
+    exercise_option3:'Point-and-figure chart.',
+    answer:'Candle stick chart.',
+    answer_explanation:'Candlestick charts show the open, high, low, and close for each trading period. Line charts use only the closing price. Point-and-figure charts do not necessarily show distinct trading periods.'
+  },
+  {
+    publish_year: '2019',
+    reading:13,
+    module:1,
+    exercise_question: 'A stock has been in a downtrend for several days. When its price decreases to near $30, many investors enter orders to buy the stock and the price increases to $31. This is most likely an example of:',
+    exercise_option1:'a support level.',
+    exercise_option2:'a resistance level.',
+    exercise_option3:'a rate of change oscillator.',
+    answer:'Bollinger bands.',
+    answer_explanation:'Bollinger bands are based on the standard deviation of prices over some number of the most recent periods. An RSI is based on the sums of positive and negative price changes during a period. An ROC oscillator is based on the difference between the most recent closing price and the closing price a given number of periods earlier.'
+  },
+  {
+    publish_year: '2019',
+    reading:13,
+    module:1,
+    exercise_question: 'A momentum indicator based on the ratio of price increases to price decreases over the last 14 days is most likely:',
+    exercise_option1:'a stochastic oscillator.',
+    exercise_option2:'a Relative Strength Index.',
+    exercise_option3:'a moving average convergence/ divergence oscillator.',
+    answer:'a Relative Strength Index.',
+    answer_explanation:'The RSI is calculated from the ratio of total price increases to total price decreases over a chosen number of days, then scaled to fluctuate between 0 and 100 using the formula RSI = 100 − [100 / (1 + ratio of increases to decreases)]. Stochastic oscillators are based on the highest and lowest prices over a chosen number of days. MACD oscillators are calculated based on exponentially smoothed moving averages.'
+  },
+  {
+    publish_year: '2019',
+    reading:13,
+    module:1,
+    exercise_question: 'An increase in which of the following is most likely when stock market sentiment is becoming more bullish?',
+    exercise_option1:'Short interest ratio.',
+    exercise_option2:'Margin debt outstanding.',
+    exercise_option3:'Put/ call ratio for a stock index.',
+    answer:'Margin debt outstanding.',
+    answer_explanation:'“More bullish” means investors expect prices to increase in the near term. Increasing margin debt suggests investors are bullish and buying aggressively. Increases in put volume relative to call volume, or in the number of shares sold short, indicate bearish investor sentiment.'
+  },
+  {
+    publish_year: '2019',
+    reading:13,
+    module:1,
+    exercise_question: 'The Kondratieff wave is a cycle of:',
+    exercise_option1:'18 years.',
+    exercise_option2:'36 years',
+    exercise_option3:'54 years.',
+    answer:'54 years.',
+    answer_explanation:'The Kondratieff wave is a 54-year cycle.'
+  },
+    {
+    publish_year: '2019',
+    reading:13,
+    module:1,
+    exercise_question: 'For an asset with acurrent price of 100, which of the following price targets is most likely based on a Fibonacci ratio?',
+    exercise_option1:'129.40.',
+    exercise_option2:'145.60.',
+    exercise_option3:'161.80.',
+    answer:'161.80.',
+    answer_explanation:'The value 1.618 is the ratio of large consecutive Fibonacci numbers. Technical analysts who employ Elliott wave theory frequently use Fibonacci ratios to set price targets.'
+  },
+    {
+    publish_year: '2019',
+    reading:13,
+    module:1,
+    exercise_question: 'If a stock’s relative strength ratio increases, the stock is:',
+    exercise_option1:'increasing in price.',
+    exercise_option2:'outperforming its benchmark.',
+    exercise_option3:'increasing on high volume or decreasing on low volume.',
+    answer:'outperforming its benchmark.',
+    answer_explanation:'If the relative strength ratio (stock price / benchmark value) increases, the stock is outperforming the benchmark stock or index against which it is being measured. This does not imply that the stock is increasing in price; if the stock price decreases but the benchmark decreases by a larger percentage, the ratio will increase. Volume is not an input into a relative strength ratio.'
+  },
+  {
+    publish_year: '2019',
+    reading:50,
+    module:2,
+    exercise_question: 'A 10-year bond pays no interest for three years, then pays $229.25, followed by payments of $35 semiannually for seven years, and an additional $1,000 at maturity. This bond is:',
+    exercise_option1:'a step-up bond.',
+    exercise_option2:'a zero-couponbond.',
+    exercise_option3:'a deferred-coupon bond.',
+    answer:'a deferred-coupon bond.',
+    answer_explanation:'This pattern describes a deferred-coupon bond. The first payment of $229.25 is the value of the accrued coupon payments for the first three years.'
+  },
+  {
+    publish_year: '2019',
+    reading:50,
+    module:2,
+    exercise_question: 'Which of the following statements is most accurate with regard to floating-rate issues that have caps and floors?',
+    exercise_option1:'A cap is an advantage to the bond holder, while a floor is an advantage to the issuer.',
+    exercise_option2:'A floor is an advantage to the bond holder, while a cap is an advantage to the issuer.',
+    exercise_option3:'A floor is an advantage to both the issuer and the bond holder, while a cap is a disadvantage to both the issuer and the bondholder.',
+    answer:'A floor is an advantage to the bond holder, while a cap is an advantage to the issuer.',
+    answer_explanation:'A cap is a maximum on the coupon rate and is advantageous to the issuer. A floor is a minimum on the coupon rate and is, therefore, advantageous to the bondholder.'
+  },
+  {
+    publish_year: '2019',
+    reading:50,
+    module:2,
+    exercise_question: 'Which of the following most accurately describes the maximum price for a currently callable bond?',
+    exercise_option1:'Its par value.',
+    exercise_option2:'The call price.',
+    exercise_option3:'The present value of its par value.',
+    answer:'The call price.',
+    answer_explanation:'Whenever the price of the bond increases above the strike price stipulated on the call option, it will be optimal for the issuer to call the bond. Theoretically, the price of a currently callable bond should never rise above its call price.'
+  },
+  {
+    publish_year: '2019',
+    reading:51,
+    module:1,
+    exercise_question: 'Ananalyst who describes a fixed-income security as being a structured finance instrument is classifying the security by:',
+    exercise_option1:'credit quality.',
+    exercise_option2:'type of issuer.',
+    exercise_option3:'taxable status.',
+    answer:'type of issuer.',
+    answer_explanation:'Fixed-income sector classifications by type of issuer include government, corporate, and structured finance instruments.'
+  },
+  {
+    publish_year: '2019',
+    reading:51,
+    module:1,
+    exercise_question: 'LIBOR rates are determined:',
+    exercise_option1:'by countries’ central banks.',
+    exercise_option2:'by money market regulators.',
+    exercise_option3:'in the interbank lending market.',
+    answer:'in the interbank lending market.',
+    answer_explanation:'LIBOR rates are determined in the market for interbank lending.'
+  },
+  {
+    publish_year: '2019',
+    reading:51,
+    module:1,
+    exercise_question: 'In which type of primary market transaction does an investment bank sell bonds on a commission basis?',
+    exercise_option1:'Single-price auction.',
+    exercise_option2:'Best-efforts offering.',
+    exercise_option3:'Underwritten offering.',
+    answer:'Best-efforts offering.',
+    answer_explanation:'In a best-efforts offering, the investment bank or banks do not underwrite (i.e., purchase all of) a bond issue, but rather sell the bonds on a commission basis. Bonds sold by auction are offered directly to buyers by the issuer (typically a government).'
+  },
+  {
+    publish_year: '2019',
+    reading:51,
+    module:1,
+    exercise_question: 'Secondary market bond transactions most likely take place:',
+    exercise_option1:'in dealer markets.',
+    exercise_option2:'in brokered markets.',
+    exercise_option3:'on organized exchanges.',
+    answer:'in dealer markets.',
+    answer_explanation:'The secondary market for bonds is primarily a dealer market in which dealers post bid and ask prices.'
+  },
+  {
+    publish_year: '2019',
+    reading:51,
+    module:1,
+    exercise_question: 'Sovereign bonds are described as on-the-run when they:',
+    exercise_option1:'are the most recent issue in a specific maturity.',
+    exercise_option2:'have increased substantially in price since they were issued.',
+    exercise_option3:'receive greater-than-expected demand from auction bidders.',
+    answer:'are the most recent issue in a specific maturity.',
+    answer_explanation:'Sovereign bonds are described as on-the-run or benchmark when they represent the most recent issue in a specific maturity.'
+  },
+  {
+    publish_year: '2019',
+    reading:51,
+    module:1,
+    exercise_question: 'Bonds issued by the World Bank would most likely be:',
+    exercise_option1:'quasi-government bonds.',
+    exercise_option2:'global bonds.',
+    exercise_option3:'supranational bonds.',
+    answer:'supranational bonds.',
+    answer_explanation:'Bonds issued by the World Bank, which is a multilateral agency operating globally, are termed supranational bonds.'
+  },
+  {
+    publish_year: '2019',
+    reading:51,
+    module:2,
+    exercise_question: 'With which of the following features of a corporate bond issue does an investor most likely face the risk of redemption prior to maturity?',
+    exercise_option1:'Serial bonds.',
+    exercise_option2:'Sinking fund.',
+    exercise_option3:'Term maturity structure.',
+    answer:'Sinking fund.',
+    answer_explanation:'With a sinking fund, the issuer must redeem part of the issue prior to maturity, but the specific bonds to be redeemed are not known. Serial bonds are issued with a schedule of maturities and each bond has a known maturity date. In an issue with a term maturity structure, all the bonds are scheduled to mature on the same date.'
+  },
+  {
+    publish_year: '2019',
+    reading:51,
+    module:2,
+    exercise_question: 'A financial instrument is structured such that cash flows to the security holder increase if a specified reference rate increases. This structured financial instrument is best described as:',
+    exercise_option1:'a participation instrument.',
+    exercise_option2:'a capital protected instrument.',
+    exercise_option3:'a yield enhancement instrument.',
+    answer:'a participation instrument.',
+    answer_explanation:'Floating-rate notes are an example of a participation instrument.'
+  },
+  {
+    publish_year: '2019',
+    reading:51,
+    module:2,
+    exercise_question: 'Smith Bank lends Johnson Bank excess reserves ondeposit with the central bank for a period of three months. Is this transaction said to occur in the interbank market?',
+    exercise_option1:'Yes.',
+    exercise_option2:'No, because the inter bank market refers to loans for more than one year.',
+    exercise_option3:'No, because the inter bank market does not include reserves at the central bank.',
+    answer:'No, because the inter bank market does not include reserves at the central bank.',
+    answer_explanation:'The interbank market refers to short-term borrowing and lending among banks of funds other than those on deposit at a central bank. Loans of reserves on deposit with a central bank are said to occur in the central bank funds market.'
+  },
+  {
+    publish_year: '2019',
+    reading:51,
+    module:2,
+    exercise_question: 'In a repurchase agreement, the percentage difference between the repurchase price and the amount borrowed is most accurately described as:',
+    exercise_option1:'the haircut.',
+    exercise_option2:'the repo rate.',
+    exercise_option3:'the repo margin.',
+    answer:'the repo rate.',
+    answer_explanation:'The repo rate is the percentage difference between the repurchase price and the amount borrowed. The repo margin or haircut is the percentage difference between the amount borrowed and the value of the collateral.'
+  },  
+];
+
+
+  // {
+  //   publish_year: '2019',
+  //   reading:51,
+  //   module:1,
+  //   exercise_question: '',
+  //   exercise_option1:'',
+  //   exercise_option2:'',
+  //   exercise_option3:'',
+  //   answer:'',
+  //   answer_explanation:''
+  // },

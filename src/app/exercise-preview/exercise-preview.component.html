@@ -1,0 +1,18 @@
+<!-- 
+  myMap key: readingNo
+  myMap value: moduleNo
+ -->
+<div *ngFor="let entry of myMap.entries()">
+	<div class="dropdown">	
+    <button type="button" class="reading_nav_button" (click)="filter_by_reading(entry[0])" [title]="reading">
+      <span class="reading"> <p id="reading_text">Reading</p></span> 
+      <span class="reading"> <p id="reading_number">{{entry[0]}}</p></span>
+    </button>
+		<div class="dropdown_container">
+			<div *ngFor="let module of entry[1]">
+				<button  class="module_button" (click)="filter_by_module(entry[0],module)" >Module {{module}}</button>
+				<!-- <button mat-raised-button color="accent" class="link_button" (click)="filter_by_module(module)" >Module {{module}}</button> -->
+			</div>
+		</div>
+	</div>
+</div>

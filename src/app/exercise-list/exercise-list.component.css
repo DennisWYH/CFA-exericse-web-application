@@ -1,0 +1,66 @@
+* {
+  /* font-family: 'Roboto', Arial, sans-serif; */
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  color: #292929;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+span.year{
+  margin-left:0px;
+  display:inline-block;
+}
+
+span.reading{
+  margin-left:10px;
+  display:inline-block;
+}
+span.module{
+  margin-left: 10px;
+  display:inline-block;
+}
+span.option1{
+  margin-left: 10px;
+  display:block;
+}
+span.option2{
+  margin-left: 10px;
+  display:block;    
+}
+span.option3{
+  margin-left: 10px;
+  display:block;
+}
+.question{
+  font-size: 18px;
+}
+.option1-content{
+  font-size:18px;
+  margin-right:20px;
+  display:inline;
+}
+.option2-content{
+  font-size:18px;
+  margin-right:20px;
+  display:inline;
+}
+.option3-content{
+  font-size:18px;
+  margin-right:20px;
+  display:inline;
+}
+
+.content{
+  margin-left:10%;
+  margin-right:20%;
+}
+
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

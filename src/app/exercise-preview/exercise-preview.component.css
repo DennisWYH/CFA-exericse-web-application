@@ -1,0 +1,65 @@
+* {
+  font-family: 'Playfair Display', serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+span.reading{
+  display:inline-block;
+  /* border-style:solid;
+  border-color:black; */
+  padding:0px;
+  margin:0px;
+}
+#reading_text{
+  width:120px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:30px;
+  /* border-style:solid;
+  border-color:blue; */
+}
+#reading_number{
+  width:30px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:30px;
+}
+
+.reading_nav_button{
+  padding: 0;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: rgb(199, 202, 202);
+}
+
+.dropdown_container{
+  display:none;
+}
+
+.reading_nav_button:hover ~ .dropdown_container
+{
+  display:block;
+}
+.dropdown_container:hover
+{
+  display:block;
+}
+
+/* Below is the CSS for drop down buttons */
+
+.module_button{
+  width:100%;
+}
+
+
+
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
